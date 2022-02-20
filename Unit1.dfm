@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 451
+  ClientWidth = 486
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -37
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 120
+  TextHeight = 45
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 486
+    Height = 161
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = -8
+    ExplicitTop = -6
+    ExplicitWidth = 387
+    object Button1: TButton
+      Left = 1
+      Top = 103
+      Width = 484
+      Height = 57
+      Align = alBottom
+      Caption = #38283#22987
+      TabOrder = 0
+      OnClick = Button1Click
+      ExplicitLeft = 2
+      ExplicitTop = 73
+      ExplicitWidth = 733
+    end
+    object LabeledEdit1: TLabeledEdit
+      Left = 16
+      Top = 44
+      Width = 210
+      Height = 53
+      EditLabel.Width = 210
+      EditLabel.Height = 45
+      EditLabel.Caption = #36523#20998#35657#21069'N'#30908
+      TabOrder = 1
+    end
+    object LabeledEdit2: TLabeledEdit
+      Left = 248
+      Top = 44
+      Width = 210
+      Height = 53
+      EditLabel.Width = 210
+      EditLabel.Height = 45
+      EditLabel.Caption = #36523#20998#35657#24460'N'#30908
+      TabOrder = 2
+    end
+  end
+  object Button2: TButton
+    Left = 0
+    Top = 394
+    Width = 486
+    Height = 57
+    Align = alBottom
+    Caption = #21295#20986#25991#23383#27284
+    TabOrder = 1
+    OnClick = Button2Click
+    ExplicitLeft = 2
+    ExplicitTop = 111
+    ExplicitWidth = 484
+  end
+  object Memo1: TMemo
+    Left = 0
+    Top = 161
+    Width = 486
+    Height = 233
+    Align = alClient
+    TabOrder = 2
+    OnKeyDown = Memo1KeyDown
+    ExplicitLeft = 160
+    ExplicitTop = 208
+    ExplicitWidth = 185
+    ExplicitHeight = 89
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.txt'
+    Filter = #32020#25991#23383#25991#20214'(*.txt)|.txt'
+    Left = 24
+    Top = 16
+  end
+end
